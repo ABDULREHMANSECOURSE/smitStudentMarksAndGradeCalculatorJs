@@ -11,3 +11,22 @@ function menuVisible(){
 }
 
 menuIcon.onclick = menuVisible
+
+
+var subject = document.getElementById('subject');
+var mark = document.getElementById('mark')
+
+
+var button = document.getElementById('button');
+
+
+var resultSubject = document.getElementById('resultSubject');
+var resultMarks = document.getElementById('resultMarks')
+
+
+function changeText() {
+    resultSubject.innerText = subject.value;
+    resultMarks.innerText = mark.value
+}
+
+button.onclick = changeText;

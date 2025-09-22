@@ -3,6 +3,7 @@
         top: 70px;
         right: 60px;
         position: fixed;
+        display: none;
     }
     nav{
         position: relative;

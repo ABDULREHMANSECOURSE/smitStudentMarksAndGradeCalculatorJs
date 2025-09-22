@@ -17,7 +17,7 @@
         <div class="nav" id="nav">
             <nav>
                 <a href="#">Home</a>
-                <a href="#">Give Marks</a>
+                <a href="#giveMarks">Give Marks</a>
                 <a href="#">Result</a>
                 <a href="#">About</a>
             </nav>
@@ -26,7 +26,32 @@
             <img src="images/menuIcon.svg" alt="" id="menuIcon">
         </div>
     </header>
-    <main></main>
+    <main>
+        <section id="giveMarks" class="giveMarks">
+            <h1>Give you subject name and mark's</h1>
+            <form>
+                <div class="subject-mark">
+                    <div class="subject">
+                        <label for="">Subject Name;
+                            <input type="text" id="subject">
+                        </label>
+                    </div>
+                    <div class="marks">
+                        <label for="">Subject Mark's;
+                            <input type="text" name="" id="mark">
+                        </label>
+                    </div>
+                </div>
+                <button type="button" id="button" class="cr-button">Chek Result</button>
+            </form>
+        </section>
+        <section id="result" class="result">
+            <div class="result-sm">
+                <div class="result-sn" id="resultSubject">aaaaaaaaaaaaaaaaaaaa</div>
+                <div class="result-m" id="resultMarks">aaaaaaaaaaaaaaaaaaaa</div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 <script src="app.js"></script>

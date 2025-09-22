@@ -5,11 +5,14 @@
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
+body{
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+}
 
 header{
     position: relative;
-    background: #2A7B9B;
-background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    background: #0000003d;
+    opacity: 0.8;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,8 +46,79 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 
     display: none;
 }
 
-main{
-    background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 56, 9, 1) 35%, rgba(70, 140, 148, 1) 100%);
-    height: 100%;
+.giveMarks{
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+}
+.giveMarks h1{
+    color: rgb(33, 65, 94);
+    font-size: 32px;   
+    padding: 20px;
+    background-color: #ffffff3a;
+    border-radius: 10px;
+}
+
+form{
+    padding-top: 50px;
+    width: 100%;
+}
+
+.subject-mark{
+    display: flex;
+    gap: 25px;
+}
+.subject-mark label{
+    color: #1a1818dc;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    font-size: 16px;
+}
+.subject-mark label input{
+    padding: 15px;
+    background-color: #ffffff41;
+    border: none;
+    border-radius: 8px;
+}
+.subject{
+    width: 100%;
+}
+.marks{
+    width: 100%;
+}
+
+.cr-button{
+    background-color: #ffffff38;
+    color: #030202d7;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.cr-button:hover{
+    background-color: #ffffff2c;
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.result{
+    text-align: center;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.result-sm{
+    display: flex;
+    gap: 25px;
+}
+.result-sm div{
+    background-color: #ffffff4f;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
 }
