@@ -30,23 +30,26 @@
         <section id="giveMarks" class="giveMarks">
             <h1>Give you subject name and mark's</h1>
             <form>
-                <div class="subject-mark">
-                    <div class="subject">
-                        <label for="">Subject Name;
-                            <input type="text" id="subject">
-                        </label>
-                    </div>
-                    <div class="marks">
-                        <label for="">Subject Mark's;
-                            <input type="text" name="" id="mark">
-                        </label>
+                <div id="subjectMarkMain" class="subject-mark-main">
+                    <div class="subject-mark" id="subjectMark">
+                        <div class="subject">
+                            <label for="">Subject Name;
+                                <input type="text" id="subject">
+                            </label>
+                        </div>
+                        <div class="marks">
+                            <label for="">Subject Mark's;
+                                <input type="text" name="" id="mark">
+                            </label>
+                        </div>
                     </div>
                 </div>
+                <button type="button" class="add-subject" id="addSubject">Add Subject</button>
                 <button type="button" id="button" class="cr-button">Chek Result</button>
             </form>
         </section>
         <section id="result" class="result">
-            <div class="result-sm">
+            <div class="result-sm" id="resultSM">
                 <div class="result-sn" id="resultSubject">aaaaaaaaaaaaaaaaaaaa</div>
                 <div class="result-m" id="resultMarks">aaaaaaaaaaaaaaaaaaaa</div>
             </div>

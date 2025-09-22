@@ -64,6 +64,13 @@ form{
     width: 100%;
 }
 
+.subject-mark-main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 25px;
+}
+
 .subject-mark{
     display: flex;
     gap: 25px;
@@ -90,7 +97,7 @@ form{
     width: 100%;
 }
 
-.cr-button{
+.cr-button,.add-subject{
     background-color: #ffffff38;
     color: #030202d7;
     width: 100%;
@@ -101,15 +108,18 @@ form{
     margin-top: 30px;
     border-radius: 10px;
 }
-.cr-button:hover{
+.cr-button:hover,.add-subject:hover{
     background-color: #ffffff2c;
     color: rgba(0, 0, 0, 0.493);
 }
 
 .result{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 80%;
     margin: 100px auto;
+    gap: 25px;
 }
 
 .result-sm{
