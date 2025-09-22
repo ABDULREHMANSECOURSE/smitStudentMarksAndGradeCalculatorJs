@@ -31,8 +31,12 @@ background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 
     font-size: 26px;
     font-weight: 600;
     line-height: 50px;
-    margin: 20px;
+    margin: 0 20px;
     color: rgb(255, 255, 255);
+}
+
+.nav nav a:hover{
+    color: rgba(255, 255, 255, 0.548);
 }
 
 .menuIcon{
