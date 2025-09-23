@@ -143,3 +143,25 @@ form{
     background-color: #ffffff4f;
     border-radius: 10px;
 }
+
+.percen{
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffff4f;
+    border-radius: 10px;
+}
+.passfail{
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffff4f;
+    border-radius: 10px;
+}
+
+.result-data{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #fff7f742;
+    padding: 15px;
+    border-radius: 10px;
+}
