@@ -25,3 +25,12 @@
         padding: 0 4%;
     }
 }
+
+@media(max-width: 600px){
+    .subject-mark{
+        flex-direction: column;
+    }
+    .result-sm{
+        flex-direction: column;
+    }
+}

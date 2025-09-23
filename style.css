@@ -127,8 +127,11 @@ form{
 }
 
 .result-sm{
+    background-color: #fff7f742;
+    padding: 15px;
     display: flex;
     gap: 25px;
+    border-radius: 10px;
 }
 .result-sm div{
     background-color: #ffffff4f;
@@ -161,7 +164,4 @@ form{
     display: flex;
     flex-direction: column;
     gap: 25px;
-    background-color: #fff7f742;
-    padding: 15px;
-    border-radius: 10px;
 }
