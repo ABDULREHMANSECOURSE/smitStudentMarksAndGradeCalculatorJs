@@ -46,9 +46,13 @@ header{
     display: none;
 }
 
+main{
+    padding: 5%;
+}
+
 .giveMarks{
     text-align: center;
-    width: 80%;
+    max-width: 700px;
     margin: 100px auto;
 }
 .giveMarks h1{
@@ -117,7 +121,7 @@ form{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    max-width: 700px;
     margin: 100px auto;
     gap: 25px;
 }
@@ -131,4 +135,11 @@ form{
     padding: 15px;
     border-radius: 10px;
     width: 100%;
+}
+
+.tm{
+    padding: 15px;
+    width: 100%;
+    background-color: #ffffff4f;
+    border-radius: 10px;
 }
